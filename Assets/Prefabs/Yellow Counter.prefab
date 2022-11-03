@@ -7,9 +7,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 500008777841989241, guid: 8fdd18bf6c3a3ee4499a71cf032d0b5b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e94f52ee913ed5b41b3bf4ecfbce3cf3, type: 3}
     - target: {fileID: 3822128269044502247, guid: 8fdd18bf6c3a3ee4499a71cf032d0b5b, type: 3}
       propertyPath: m_Name
       value: Yellow Counter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3822128269044502247, guid: 8fdd18bf6c3a3ee4499a71cf032d0b5b, type: 3}
+      propertyPath: m_TagString
+      value: Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060961505687589243, guid: 8fdd18bf6c3a3ee4499a71cf032d0b5b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060961505687589243, guid: 8fdd18bf6c3a3ee4499a71cf032d0b5b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 7326124285385395253, guid: 8fdd18bf6c3a3ee4499a71cf032d0b5b, type: 3}
       propertyPath: m_RootOrder
