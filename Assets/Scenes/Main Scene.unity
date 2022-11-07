@@ -434,6 +434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 356543925}
   - component: {fileID: 356543924}
+  - component: {fileID: 356543926}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -453,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec500660f4fc4874187392793b524147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gridManager: {fileID: 809989784}
+  MovementManager: {fileID: 0}
   _winWindow: {fileID: 1968498548}
 --- !u!4 &356543925
 Transform:
@@ -470,6 +471,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &356543926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356543923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1952abb529002d94e84636e56fa26964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gridManager: {fileID: 809989784}
 --- !u!1001 &361369144
 PrefabInstance:
   m_ObjectHideFlags: 0
